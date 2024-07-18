@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .form {
+            border: 2px solid red;
+            height: 80%;
+            width: 40%;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 16%;
+            box-sizing: border-box;
+
+        }
+
+        input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .box {
+            text-align: center;
+
+        }
+
+        .forget {
+            text-align: center;
+        }
+
+        .login {
+            text-align: center;
+        }
+
+        .reg {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <form action="post" class="form">
+            <h1>Login</h1>
+            <div class="box">
+
+
+
+
+                <input class="w3-input w3-border-0"   type="email" required>
+                <label for=""><i class="fa fa-envelope icon">Email</i></label>
+
+            </div>
+            <div class="box">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+
+                <input class="w3-input w3-border-0"  type="password" required>
+                <label for=""><i class="fa fa-key icon">Password</i></label>
+
+            </div>
+            <div class="forget">
+                <label for=""><input type="checkbox">Remembar Me</label>
+                <a href="#">Forget Password</a>
+            </div>
+            <div class="login">
+                <button>Logi in</button>
+            </div>
+            <div class="reg">
+                <p>Don't have a account <a href="#">Register</a></p>
+            </div>
+
+        </form>
+    </section>
+</body>
+
+</html>

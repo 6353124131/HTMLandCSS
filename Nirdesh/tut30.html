@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adavance selectoer</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* div li p{
+            color: yellow;
+            background-color: green;
+            font-weight: bold;
+        } */
+        /* div > p{
+            color: yellow;
+            background-color: green;
+            font-weight: bold;
+        } */
+        div + p{
+            color: rgb(203, 196, 7);
+            background-color: rgb(10, 193, 225);
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        This is adavance selector
+    </h1>
+    <div class="nirdesh">
+        <div class="bos">
+            <ul>
+                <li class="item">
+                    <p>this is anodher paragraph </p>
+                </li>
+                <li>this will not get affected</li>
+                <p>this is para insid ul</p>
+
+            </ul>
+            <p>this is paragraph </p>
+        </div>
+        <p>this is outermost paragraph</p>
+    </div>
+</body>
+
+</html>
